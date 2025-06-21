@@ -1,4 +1,4 @@
-📡 CSC230 Computer Networks Project — MIU (Spring 2025)
+#📡 CSC230 Computer Networks Project — MIU (Spring 2025)
 This repository contains the full implementation of the Computer Networks Project (CSC230) at Misr International University (MIU), developed under the supervision of Dr. Yasmin Alkady.
 
 Course: CSC230 – Computer Networks Faculty: Computer Science, MIU Team Leader: Diaa Eldeen — 2023/06246 Semester: Spring 2025 Section: Dr. Yasmin Alkady's Groups
