@@ -1,64 +1,84 @@
-#📡 CSC230 Computer Networks Project — MIU (Spring 2025)
-This repository contains the full implementation of the Computer Networks Project (CSC230) at Misr International University (MIU), developed under the supervision of Dr. Yasmin Alkady.
+# 📡 CSC230 Computer Networks Project — MIU (Spring 2025)
 
-Course: CSC230 – Computer Networks Faculty: Computer Science, MIU Team Leader: Diaa Eldeen — 2023/06246 Semester: Spring 2025 Section: Dr. Yasmin Alkady's Groups
+This repository contains the full implementation of the Computer Networks Project for **CSC230 – Computer Networks** at **Misr International University (MIU)**.  
+Developed under the supervision of **Dr. Mostafa Abdelrahman**.
 
-📘 Project Overview The project focuses on designing, implementing, and configuring a complex enterprise network with full functionality, security, and management features. It aims to simulate a real-world scenario, including subnetting, routing, VLANs, DHCP, NAT, VPN, wireless access, and full documentation.
+- **Course:** CSC230 – Computer Networks  
+- **Faculty:** Computer Science, MIU  
+- **Team Leader:** Mariam Mohamed  
+- **Semester:** Spring 2025  
+- **Section:** Dr. Mostafa Abdelrahman  
 
-✅ Project Objectives VLSM Design – Design and implement a subnetting scheme using 10.0.0.0/8
+---
 
-Network Setup – Configure interfaces, device settings, and IP addressing
+## 📘 Project Overview
 
-Layer 2 Configuration – VLANs, trunking, inter-VLAN routing, EtherChannel
+The project focuses on **designing, implementing, and configuring a complex enterprise network** that reflects real-world scenarios. The network ensures **functionality, security, and manageability** across different services.
 
-Routing Protocols – Implement OSPFv2, EIGRP, and route redistribution
+Main network features include:
 
-DHCP Configuration – Set up centralized and remote DHCP servers
+- Subnetting using VLSM  
+- Layer 2/3 configurations  
+- Dynamic routing protocols  
+- Network services: DHCP, NAT, DNS, Web & Mail  
+- IPsec VPN between remote sites  
+- Wireless router setup  
+- Full testing and documentation
 
-NAT – Implement both dynamic (PAT) and static NAT
+---
 
-Network Management – NTP, Syslog, DNS, Web & Mail servers
+## ✅ Project Objectives
 
-IPsec VPN – Secure connectivity between remote sites via site-to-site VPN
+- **VLSM Design:** Implement a subnetting scheme using `10.0.0.0/8`
+- **Network Setup:** Interface configuration and IP addressing
+- **Layer 2 Config:** VLANs, trunking, inter-VLAN routing, EtherChannel
+- **Routing Protocols:** Configure OSPFv2, EIGRP, and route redistribution
+- **DHCP:** Centralized and remote DHCP servers
+- **NAT:** Dynamic (PAT) and Static NAT implementation
+- **Network Management:** NTP, Syslog, DNS, Web & Mail servers
+- **VPN:** Secure site-to-site IPsec VPN setup
+- **Wireless:** Configure wireless home router with WPA2 security
+- **Testing:** Verify using ping, traceroute, routing tables
+- **Documentation:** Final report with diagrams, screenshots, and configs
 
-Wireless Configuration – Deploy a wireless home router with secure access
+---
 
-Connectivity Testing – Full network ping, traceroute, routing table validation
+## 🧰 Technologies & Tools
 
-Documentation – Comprehensive guide with screenshots, configs, and test cases
+- **Cisco Packet Tracer**
+- **IPv4 Subnetting (VLSM)**
+- **OSPFv2 & EIGRP Routing**
+- **DHCP & NAT**
+- **VLANs, Trunking, EtherChannel**
+- **Syslog, NTP, DNS**
+- **Email & Web Servers**
+- **IPsec VPN (Site-to-Site)**
+- **Wireless Router Configuration**
+- **Linux CLI & Network Utilities**
 
-🧰 Technologies & Tools Cisco Packet Tracer
+---
 
-IPv4 Subnetting (VLSM)
+## 📂 Project Structure
 
-OSPFv2 & EIGRP Routing
+```
+/configs/         → Router and switch configuration files  
+/diagrams/        → Network topologies and addressing plans  
+/documentation/   → Final report with test cases and verification  
+/screenshots/     → Interface status, pings, and routing outputs  
+/dhcp-nat-vpn/    → DHCP pools, NAT settings, VPN configs  
+```
 
-DHCP, NAT, VLANs
+---
 
-Syslog, NTP, DNS, Email/Web Servers
+## 📎 Notes
 
-Site-to-Site IPsec VPN
+- All IP addresses, VLANs, and protocols follow the assigned project specification.
+- Reliable host access is ensured using DHCP and static IP configurations.
+- Route redistribution enables seamless protocol integration.
+- Site-to-site VPN secures communication between MIU and branch sites.
 
-Wireless Router Configuration
+---
 
-Linux CLI & Network Utilities
+## 📄 License
 
-📂 Structure /configs/ – Router and switch configuration files
-
-/diagrams/ – Network topologies and addressing schemes
-
-/documentation/ – Final report with testing and verification
-
-/screenshots/ – Ping tests, interface status, and routing tables
-
-/dhcp-nat-vpn/ – DHCP pools, NAT settings, VPN configs
-
-📎 Notes All IP addresses, VLAN IDs, and routing protocols are configured according to project specifications.
-
-The DHCP and static configurations ensure hosts can access the network reliably.
-
-Dynamic routing and route redistribution allow seamless integration of different protocols.
-
-A site-to-site VPN secures communication between MIU and its branch network.
-
-📄 License This project is created for academic purposes and is licensed under the MIT License.
+This project is licensed under the **MIT License** and is intended for **academic use only**.
